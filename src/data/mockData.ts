@@ -1,11 +1,10 @@
-
 import { User, WorkoutPost, Comment, WorkoutType } from "../types";
 
 export const mockUsers: User[] = [
   {
     id: "1",
-    name: "Sarah Johnson",
-    username: "fitSarah",
+    name: "Vansh Saini",
+    username: "vanshfit",
     avatar: "/placeholder.svg",
     bio: "Fitness enthusiast | Marathon runner 🏃‍♀️ | Sharing my fitness journey",
     followers: 1542,
@@ -14,8 +13,8 @@ export const mockUsers: User[] = [
   },
   {
     id: "2",
-    name: "Mike Chen",
-    username: "mikeFit",
+    name: "Ishaan Sharda",
+    username: "ishaanfit",
     avatar: "/placeholder.svg",
     bio: "Personal trainer | Weightlifting specialist 🏋️‍♂️ | Let's get stronger together",
     followers: 2318,
@@ -24,8 +23,8 @@ export const mockUsers: User[] = [
   },
   {
     id: "3",
-    name: "Emma Williams",
-    username: "emma_fit",
+    name: "Tejas Mehra",
+    username: "tejasfit",
     avatar: "/placeholder.svg",
     bio: "Yoga instructor | Meditation advocate 🧘‍♀️ | Mind & body wellness",
     followers: 3245,
@@ -34,8 +33,8 @@ export const mockUsers: User[] = [
   },
   {
     id: "4",
-    name: "Alex Rodriguez",
-    username: "alexFitness",
+    name: "Utkarsh Kumar",
+    username: "utkarshlift",
     avatar: "/placeholder.svg",
     bio: "Crossfit athlete | Nutrition coach 🥗 | Push your limits",
     followers: 987,
@@ -44,8 +43,8 @@ export const mockUsers: User[] = [
   },
   {
     id: "5",
-    name: "Jordan Taylor",
-    username: "JTfit",
+    name: "Hardik Agarwal",
+    username: "hardikhiit",
     avatar: "/placeholder.svg",
     bio: "HIIT specialist | Former athlete 🏆 | Transform your body",
     followers: 4562,
