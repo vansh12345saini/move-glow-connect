@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                
+                // Fitness app specific colors
+                fitPurple: {
+                    100: '#E5DEFF',
+                    200: '#D6BCFA',
+                    300: '#9b87f5',
+                    400: '#8B5CF6',
+                    500: '#7E69AB',
+                    600: '#6E59A5',
+                    700: '#1A1F2C',
+                },
+                fitNeutral: {
+                    100: '#F1F0FB',
+                    200: '#C8C8C9',
+                    300: '#8E9196',
+                    400: '#403E43',
+                    500: '#222222',
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +103,29 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'pulse-soft': {
+                    '0%, 100%': { opacity: '1' },
+                    '50%': { opacity: '0.7' }
+                },
+                'slide-up': {
+                    '0%': { transform: 'translateY(10px)', opacity: '0' },
+                    '100%': { transform: 'translateY(0)', opacity: '1' }
+                },
+                'heart-beat': {
+                    '0%': { transform: 'scale(1)' },
+                    '25%': { transform: 'scale(1.1)' },
+                    '50%': { transform: 'scale(1)' },
+                    '75%': { transform: 'scale(1.1)' },
+                    '100%': { transform: 'scale(1)' }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'pulse-soft': 'pulse-soft 3s infinite ease-in-out',
+                'slide-up': 'slide-up 0.3s ease-out forwards',
+                'heart-beat': 'heart-beat 1s ease-in-out'
 			}
 		}
 	},
