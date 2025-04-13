@@ -1,3 +1,4 @@
+
 import { User, WorkoutPost, Comment, WorkoutType } from "../types";
 
 export const mockUsers: User[] = [
@@ -58,7 +59,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "1",
     userId: "1",
     user: mockUsers[0],
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1595246308617-31a58da969a3?q=80&w=1470&auto=format&fit=crop",
     description: "Morning run complete! Pushed myself to a new personal best today. 🏃‍♀️💪 #FitnessGoals #MorningRun",
     likes: 243,
     comments: 28,
@@ -75,7 +76,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "2",
     userId: "2",
     user: mockUsers[1],
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1469&auto=format&fit=crop",
     description: "Hit a new PR on deadlifts today! 315lbs x 5 reps. Progress is happening! 🏋️‍♂️ #GymLife #Deadlifts #PersonalRecord",
     likes: 187,
     comments: 42,
@@ -91,7 +92,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "3",
     userId: "3",
     user: mockUsers[2],
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5?q=80&w=1470&auto=format&fit=crop",
     description: "Finding peace in my practice today. Remember that consistency is key to progress in yoga. 🧘‍♀️✨ #YogaJourney #Mindfulness",
     likes: 329,
     comments: 16,
@@ -107,7 +108,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "4",
     userId: "4",
     user: mockUsers[3],
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1470&auto=format&fit=crop",
     description: "Today's WOD was brutal but so worth it! Feeling stronger every day. 💯 #CrossFit #WorkoutOfTheDay #NoExcuses",
     likes: 271,
     comments: 31,
@@ -123,7 +124,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "5",
     userId: "5",
     user: mockUsers[4],
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?q=80&w=1470&auto=format&fit=crop",
     description: "Beach workout vibes! There's nothing better than exercising with this view. 🏝️ Who's joining me tomorrow? #BeachWorkout #FitLife",
     likes: 412,
     comments: 47,
