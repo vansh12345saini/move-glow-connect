@@ -75,7 +75,7 @@ export const mockPosts: WorkoutPost[] = [
     id: "2",
     userId: "2",
     user: mockUsers[1],
-    image: "https://images.unsplash.com/photo-1526403646408-57b94c30d1d4?q=80&w=1470&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1469&auto=format&fit=crop",
     description: "Hit a new PR on conventional deadlifts today! 315lbs x 5 reps. Feeling strong and focused! 🏋️‍♂️ #Deadlifts #StrengthTraining #PersonalRecord",
     likes: 187,
     comments: 42,
