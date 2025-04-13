@@ -1,4 +1,3 @@
-
 import { User, WorkoutPost, Comment, WorkoutType } from "../types";
 
 export const mockUsers: User[] = [
@@ -59,15 +58,15 @@ export const mockPosts: WorkoutPost[] = [
     id: "1",
     userId: "1",
     user: mockUsers[0],
-    image: "https://images.unsplash.com/photo-1595246308617-31a58da969a3?q=80&w=1470&auto=format&fit=crop",
-    description: "Morning run complete! Pushed myself to a new personal best today. 🏃‍♀️💪 #FitnessGoals #MorningRun",
+    image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=1470&auto=format&fit=crop",
+    description: "Morning run complete! Pushed myself to a new personal best today on a 5K route. 🏃‍♀️💪 #FitnessGoals #MorningRun",
     likes: 243,
     comments: 28,
     timestamp: "2025-04-12T08:30:00Z",
     workout: {
       type: WorkoutType.Running,
       duration: 45,
-      distance: 8.2,
+      distance: 5,
       calories: 520
     },
     isLiked: false
@@ -76,8 +75,8 @@ export const mockPosts: WorkoutPost[] = [
     id: "2",
     userId: "2",
     user: mockUsers[1],
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=1469&auto=format&fit=crop",
-    description: "Hit a new PR on deadlifts today! 315lbs x 5 reps. Progress is happening! 🏋️‍♂️ #GymLife #Deadlifts #PersonalRecord",
+    image: "https://images.unsplash.com/photo-1526403646408-57b94c30d1d4?q=80&w=1470&auto=format&fit=crop",
+    description: "Hit a new PR on conventional deadlifts today! 315lbs x 5 reps. Feeling strong and focused! 🏋️‍♂️ #Deadlifts #StrengthTraining #PersonalRecord",
     likes: 187,
     comments: 42,
     timestamp: "2025-04-11T16:45:00Z",
